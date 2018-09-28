@@ -76,6 +76,16 @@ export default class Production extends Component{
           Production
         </Link>
       </li>
+      <li className="nav-item">
+        <Link
+          to="/Inventory"
+          className={
+            window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
+          }
+        >
+          Inventory
+        </Link>
+      </li>
     </ul>
         <br></br><br></br>
          <div className="production-menu">
