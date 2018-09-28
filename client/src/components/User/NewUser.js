@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import './NewUser.css';
 import axios from 'axios';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export default class NewUser extends Component{
     
@@ -51,7 +51,9 @@ export default class NewUser extends Component{
     render(){
        
         return(
-            <div id="body">
+        <div id="body">
+            <form>
+
 
 <ul className="nav nav-tabs">
       <li className="nav-item">
@@ -91,62 +93,13 @@ export default class NewUser extends Component{
                 <br></br><br></br>
                 <div className="user-menu">
                     <div className="user-input-u">
+
                         <br></br>
-                        <p>New User Information</p>
-                     <div>
-                     <br></br><br></br>
-                    <label id="label">User Date</label><br/>
-                    <input
-                            type="text"
-                            placeholder="User Date"
-                            name="user_date"
-                            value={this.state.user_date}
-                            onChange={this.handleUserChange}
-                        />
-                    </div>
-                    <br></br>
-                    <div>
-                        <label id="label">User Id</label><br/>
-                        <input
-                            type="text"
-                            id="user_id"
-                            placeholder="User Id"
-                            name="user_id"
-                            value={this.state.user_id}
-                            onChange={this.handleUserChange}
-                        />
-                    </div>
-                    <br></br>
-                    <div>
-                        <label id="label">User Password</label><br/>
-                        <input
-                            type="password"
-                            id="user_password"
-                            placeholder="User Password"
-                            name="user_password"
-                            value={this.state.user_password}
-                            onChange={this.handleUserChange}
-                        />
-                    </div>
-                    <br></br>
-                    <div>
-                        <label id="label">User Email</label><br/>
-                        <input
-                            type="text"
-                            id="user_email"
-                            placeholder="User Email"
-                            name="user_email"
-                            value={this.state.user_email}
-                            onChange={this.handleUserChange}
-                        />
-                    </div>
-                    <br></br>
-                    
-                    <div>
-                             <button  className="usersavebtn" onClick={this.handleSubmitChange}>Create User</button>
-                    </div>
-                </div>
-            </div>
+                        
+                            <div>
+                                    <button  className="usersavebtn btn btn-primary" type="submit" onClick={this.handleSubmitChange}>Submit</button>
+                            </div>
+            </form>
         </div>
         )
     }

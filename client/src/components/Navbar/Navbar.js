@@ -1,8 +1,11 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-
+import Main from '../../Main';
 import './Navbar.css';
+import SimpleModal from '../SImpleModal/SimpleModal';
+// import newuser from './../User/NewUser';
+
 
 const Navbar = () => (
     <ul className="nav nav-tabs">
