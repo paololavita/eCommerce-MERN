@@ -42,6 +42,12 @@ mongoose.connect(dbconnection.Connection, {
 });
 
 
+app.get(`/api/look/prod/`,(req,res)=>{
+  
+  db.Production.find({})
+    .then(result =>{res.json(result)})
+  
+  })
 
 app.post('/api/production', (req,res)=>{
 

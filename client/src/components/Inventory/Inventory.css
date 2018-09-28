@@ -1,0 +1,27 @@
+
+
+#mainbody{
+    background-color:slategrey;
+}
+
+#div_look{
+    width: 50%;
+    height:30px;
+    background-color: slategray;
+    margin:auto;
+    padding-left: 10px;
+}
+
+#display_data{
+    width:80%;
+    height:100px;
+    margin:auto;
+    background-color: sienna;
+}
+#search_data{
+    background-color: blue;
+    width:100px;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+}

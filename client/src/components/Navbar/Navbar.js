@@ -27,49 +27,18 @@ const Navbar = () => (
           Production
         </Link>
       </li>
-      {/* <li className="nav-item">
+      <li className="nav-item">
         <Link
-          to="/Learn"
+          to="/Inventory"
           className={
-            window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
+            window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
           }
         >
-          Learn
+          Inventory
         </Link>
-      </li> */}
+      </li>
     </ul>
   );
   
   export default Navbar;
   
-
-
-
-
-
-// export default class Navbar extends Component {
-
-
-    // newUser() {
-
-    // }
-
-    // newproduction(){
-
-    // }
-
-    // render() {
-    //     return (
-    //         <div className="Navbar">
-    //             <ul>
-
-    //                 <li><a>Exit</a></li>
-    //                 <li><Link to="/new-user" className="newuser" onClick={this.newUser}>Create New User</Link></li>
-    //                 <li><Link to="/new-production" className="production" onClick={this.newProduction}>Production</Link></li>
-    //                 <li><Link to="/new-shipment" className="shipment" onClick={this.newShipment}>Shipment</Link></li>
-    //                 {/* <li><Link to="/new-inventory" className="invent" onClick={this.newInventory}>Inventory</Link></li> */}
-    //             </ul>
-    //         </div>
-    //     )
-    // }
-// }
