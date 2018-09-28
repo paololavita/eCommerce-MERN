@@ -54,57 +54,46 @@ export default class NewUser extends Component{
         <div id="body">
             <form>
 
-                            <div className="form-group-row">
-                                <label for="colFormLabelSm" className="col-sm-2 col-form-label col-form-label-sm">User Date</label>
-                                    <div className="col-sm-10">
-                                        <input
-                                            type="text"
-                                            className="form-control form-control-sm" id="colFormLabelSm"
-                                            name="user_date"
-                                            value={this.state.user_date}
-                                            onChange={this.handleUserChange}
-                                        />
-                                    </div>
-                            </div>
-                            <div className="form-group-row">
-                                <label for="colFormLabelSm" className="col-sm-2 col-form-label col-form-label-sm">User Id</label>
-                                    <div className="col-sm-10">
-                                        <input
-                                            type="text"
-                                            className="form-control form-control-sm" id="colFormLabelSm"
-                                            placeholder="User Id"
-                                            name="user_id"
-                                            value={this.state.user_id}
-                                            onChange={this.handleUserChange}
-                                        />
-                                    </div>
-                            </div>
-                        <div className="form-group-row">
-                                <label for="colFormLabelSm" className="col-sm-2 col-form-label col-form-label-sm">User Password</label>
-                                    <div className="col-sm-10">
-                                    <input
-                                        type="password"
-                                        className="form-control form-control-sm" id="colFormLabelSm"
-                                        placeholder="User Password"
-                                        name="user_password"
-                                        value={this.state.user_password}
-                                        onChange={this.handleUserChange}
-                                        />
-                                    </div>
-                            
-                        </div>
-                        <div className="form-group-row">
-                                <label for="colFormLabelSm" className="col-sm-2 col-form-label col-form-label-sm">User Email</label>
-                                <div className="col-sm-10">
-                                    <input
-                                        className="form-control form-control-sm" id="colFormLabelSm"
-                                        placeholder="User Email"
-                                        name="user_email"
-                                        value={this.state.user_email}
-                                        onChange={this.handleUserChange}
-                                    />
-                                </div>
-                        </div>
+
+<ul className="nav nav-tabs">
+      <li className="nav-item">
+        <Link
+          to="/newuser"
+          className={
+            window.location.pathname === "/newuser" ? "nav-link active" : "nav-link"
+          }
+        >
+          New User
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/production"
+          className={
+            window.location.pathname === "/production" ? "nav-link active" : "nav-link"
+          }
+        >
+          Production
+        </Link>
+      </li>
+      <li className="nav-item">
+      </li>
+      <li className="nav-item">
+        <Link
+          to="/Inventory"
+          className={
+            window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
+          }
+        >
+          Inventory
+        </Link>
+      </li>
+      
+    </ul>
+                <br></br><br></br>
+                <div className="user-menu">
+                    <div className="user-input-u">
+
                         <br></br>
                         
                             <div>
