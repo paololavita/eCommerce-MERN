@@ -28,9 +28,9 @@ class SimpleModal extends React.Component {
       <div>
           <ul className="nav navbar-nav">
               <li className="active">
-                <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
-                  Sign Up
-                </Button>
+              <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
+                Sign Up
+              </Button>
               </li>
           </ul>
 

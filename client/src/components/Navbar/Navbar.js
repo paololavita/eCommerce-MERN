@@ -8,29 +8,19 @@ import SimpleModal from '../SImpleModal/SimpleModal';
 
 
 const Navbar = () => (
-    <ul className="nav nav-tabs">
-      
-      <li className="nav-item">
-        <Link
-          to="/newuser"
-          className={
-            window.location.pathname === "/newuser" ? "nav-link active" : "nav-link"
-          }
-        >
-          New User
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/production"
-          className={
-            window.location.pathname === "/production" ? "nav-link active" : "nav-link"
-          }
-        >
-          Production
-        </Link>
-      </li>
-      <li className="nav-item">
+  <div className="App">
+      <nav className="navbar navbar-inverse">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="site">E Commerce</a>
+            </div>
+            <ul className="nav navbar-nav">
+              <li className="active"><a href="site">Today's Deals</a></li>
+              
+              <li>
+                  <SimpleModal/>
+              </li>
+              <li className="active">
         <Link
           to="/Inventory"
           className={
@@ -40,8 +30,23 @@ const Navbar = () => (
           Inventory
         </Link>
       </li>
-    </ul>
+      <li className="active">
+              <Link
+                to="/production"
+                className={
+                  window.location.pathname === "/production" ? "nav-link active" : "nav-link"
+                }
+                >
+                Product List
+              </Link>
+            </li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+              <Main />
+        </div>
+  </div>
   );
   
   export default Navbar;
-  

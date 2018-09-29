@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
 import NewUser from './components/User/NewUser';
 import Production from './components/Production/Production';
+import Inventory from './components/Inventory/Inventory';
 
 // import SimpleModal from './components/SImpleModal/SimpleModal';
 
-import Inventory from './components/Inventory/Inventory';
 
 
 
