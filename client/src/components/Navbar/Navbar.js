@@ -1,75 +1,52 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-
+import Main from '../../Main';
 import './Navbar.css';
+import SimpleModal from '../SImpleModal/SimpleModal';
+// import newuser from './../User/NewUser';
+
 
 const Navbar = () => (
-    <ul className="nav nav-tabs">
-      
-      <li className="nav-item">
+  <div className="App">
+      <nav className="navbar navbar-inverse">
+          <div className="container-fluid">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="site">E Commerce</a>
+            </div>
+            <ul className="nav navbar-nav">
+              <li className="active"><a href="site">Today's Deals</a></li>
+              
+              <li>
+                  <SimpleModal/>
+              </li>
+              <li className="active">
         <Link
-          to="/newuser"
+          to="/Inventory"
           className={
-            window.location.pathname === "/newuser" ? "nav-link active" : "nav-link"
+            window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
           }
         >
-          New User
+          Inventory
         </Link>
       </li>
-      <li className="nav-item">
-        <Link
-          to="/production"
-          className={
-            window.location.pathname === "/production" ? "nav-link active" : "nav-link"
-          }
-        >
-          Production
-        </Link>
-      </li>
-      {/* <li className="nav-item">
-        <Link
-          to="/Learn"
-          className={
-            window.location.pathname === "/learn" ? "nav-link active" : "nav-link"
-          }
-        >
-          Learn
-        </Link>
-      </li> */}
-    </ul>
+      <li className="active">
+              <Link
+                to="/production"
+                className={
+                  window.location.pathname === "/production" ? "nav-link active" : "nav-link"
+                }
+                >
+                Product List
+              </Link>
+            </li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+              <Main />
+        </div>
+  </div>
   );
   
   export default Navbar;
-  
-
-
-
-
-
-// export default class Navbar extends Component {
-
-
-    // newUser() {
-
-    // }
-
-    // newproduction(){
-
-    // }
-
-    // render() {
-    //     return (
-    //         <div className="Navbar">
-    //             <ul>
-
-    //                 <li><a>Exit</a></li>
-    //                 <li><Link to="/new-user" className="newuser" onClick={this.newUser}>Create New User</Link></li>
-    //                 <li><Link to="/new-production" className="production" onClick={this.newProduction}>Production</Link></li>
-    //                 <li><Link to="/new-shipment" className="shipment" onClick={this.newShipment}>Shipment</Link></li>
-    //                 {/* <li><Link to="/new-inventory" className="invent" onClick={this.newInventory}>Inventory</Link></li> */}
-    //             </ul>
-    //         </div>
-    //     )
-    // }
-// }

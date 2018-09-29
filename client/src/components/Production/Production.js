@@ -52,45 +52,65 @@ export default class Production extends Component{
     render(){
         
         return(
-    <div id="body">
-
-    <ul className="nav nav-tabs">
-      
-      <li className="nav-item">
-        <Link
-          to="/newuser"
-          className={
-            window.location.pathname === "/newuser" ? "nav-link active" : "nav-link"
-          }
-        >
-          New User
-        </Link>
-      </li>
-      <li className="nav-item">
-        <Link
-          to="/production"
-          className={
-            window.location.pathname === "/production" ? "nav-link active" : "nav-link"
-          }
-        >
-          Production
-        </Link>
-      </li>
-    </ul>
-        <br></br><br></br>
-         <div className="production-menu">
-            <div className="user-input-p">
-                   <br></br>
-                   <p>Product Information</p>
-                   <div>
-                        <label id="label">Product Date</label><br/>
+            <div className="App">
+            <nav className="navbar navbar-inverse">
+            <div className="container-fluid">
+            <div className="navbar-header">
+            <li className="active">
+              <a className="navbar-brand">
+                <Link
+                to="/"
+                className={
+                    window.location.pathname === "/" ? "nav-link active" : "nav-link"
+                }
+                >
+                    E Commerce
+                </Link>
+                </a>
+            </li>
+            </div>
+            <ul className="nav navbar-nav">
+              <li className="active"><a href="site">Today's Deals</a></li>
+              <li className="active">
+                <Link
+                to="/Inventory"
+                className={
+                    window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
+                    }
+                    >
+                    Inventory
+                </Link>
+                </li>
+                <li className="active">
+                <Link
+                to="/production"
+                className={
+                  window.location.pathname === "/production" ? "nav-link active" : "nav-link"
+                }
+                >
+                Product List
+              </Link>
+            </li>
+            </ul>
+          </div>
+        </nav>
+         <div className="container">
+            <div className="jumbotron">
+                <h2>Product Information</h2>
+            </div>
+            </div>
+            <div className="form-group-row">
+                        <label for="colFormLabelSm" className="col-sm-2 col-form-label">Product Date</label><br/>
+                        <div className="col-sm-10">
                         <input
                             type="text"
+                            className="form-control3 form-control-sm"
                             placeholder="Prod_date"
                             name="prod_date"
                             value={this.state.prod_date}
                             onChange={this.handleInputChange}
-                        />
+                            />
+                        </div>
                     </div>
                     <br></br>
                     <div>
@@ -160,8 +180,8 @@ export default class Production extends Component{
                     <br></br>
                     <br></br>
                 </div>
-            </div>
-        </div>
+            
+        
         )
     }
 }

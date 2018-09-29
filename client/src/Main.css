@@ -1,0 +1,127 @@
+.navbar {
+    border-radius: 0px;
+}
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    color: antiquewhite;
+    text-align: left;
+    font-weight: bolder;
+}
+#slider, .wrapper, .slide-content {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.form-inline .form-control {
+    display: inline-block;
+    width: auto;
+    vertical-align: -4px;
+}
+.img-rounded {
+    border-radius: 20px;
+}
+button {
+    margin: 6px;
+    font: inherit;
+    color: inherit;
+}
+
+.text {
+    color: antiquewhite;
+    text-align: justify;
+    padding: 10px 0px 2px 0px;
+    text-justify: auto;
+    font-weight: 100
+}
+.box {
+    position: absolute;
+    border-color: cadetblue;
+    padding: 20px 20px 20px 20px;
+    background-color: cadetblue;
+    border-radius: 12px 12px 0px 0px;
+}
+.discount {
+    position: absolute;
+    top: 57px;
+    right: 309px;
+}
+.btn .caret {
+    margin-left: 6px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    margin: 0px;
+}
+.image {
+    vertical-align: middle;
+    margin-top: -29rem;
+    padding: 0px 70px 0px 70px;
+}
+.wrapper {
+    position: relative;
+    background-size: 77%;
+    height: 100%;
+}
+.slide {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* .slide1{
+    background-image: url('../src/imgs/1383711-clothesforwebsite-1492163824.jpg')
+}
+.slide2{
+    background-image: url('../src/imgs/18_H2_Levis_US_Sept_HP_D_Ref_A_Fleece.jpg')
+}
+.slide3{
+    background-image: url('../src/imgs/Deakin_Clothing_Category_2048x2048.jpg')
+}
+.slide4{
+    background-image: url('../src/imgs/o-CLOTHING0205-facebook.jpg')
+} */
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.slide-content span {
+    font-size: 5rem;
+    color: white;
+}
+.arrow {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    margin-top: -5%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+#arrow-left {
+    border-width: 30px 40px 30px 0;
+    border-color: transparent white transparent transparent;
+    left: 0;
+    margin-left: 30px;
+}
+#arrow-right {
+    border-width: 30px 0px 30px 40px;
+    border-color: transparent transparent transparent white;
+    right: 0;
+    margin-right: 30px;
+}
+.container {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: -22px;
+}
