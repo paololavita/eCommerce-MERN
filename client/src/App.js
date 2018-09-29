@@ -7,6 +7,11 @@ import NewUser from './components/User/NewUser';
 import Production from './components/Production/Production';
 import Inventory from './components/Inventory/Inventory';
 
+// import SimpleModal from './components/SImpleModal/SimpleModal';
+
+
+
+
 
 const App = () => (
   <Router>
