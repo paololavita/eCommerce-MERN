@@ -1,2 +1,2 @@
 # Ignore the yarn.lock file
-yarn.lock
+package-lock.json
