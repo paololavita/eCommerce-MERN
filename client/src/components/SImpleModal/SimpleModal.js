@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
-// import './SimpleModal.css';
+import './SimpleModal.css';
 import Newuser from '../User/NewUser';
 
 class SimpleModal extends React.Component {
@@ -44,9 +44,6 @@ class SimpleModal extends React.Component {
               <Newuser/>
             </div>
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.handleClose}>Close</Button>
-          </Modal.Footer>
         </Modal>
       </div>
     );

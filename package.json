@@ -23,5 +23,13 @@
     "react-dom": "^16.5.2"
   },
   "devDependencies": {},
-  "description": "inventory management system"
+  "description": "inventory management system",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paololavita/eCommerce-MERN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paololavita/eCommerce-MERN/issues"
+  },
+  "homepage": "https://github.com/paololavita/eCommerce-MERN#readme"
 }

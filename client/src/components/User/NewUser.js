@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './NewUser.css';
 import axios from 'axios';
+import { Button, Modal } from 'react-bootstrap';
 // import { Link } from 'react-router-dom';
 
 export default class NewUser extends Component{
@@ -9,7 +10,7 @@ export default class NewUser extends Component{
                 user_date: new Date().getDate()+ '/' + new Date().getMonth() + '/' + new Date().getFullYear(),
                 user_id: "",
                 user_password:"",
-                user_email:""      
+                user_email:""
         };
 
         handleUserChange = event =>{
@@ -106,10 +107,17 @@ export default class NewUser extends Component{
                                 </div>
                         </div>
                         <br></br>
-                        
-                            <div>
-                                    <button  className="usersavebtn btn btn-primary" type="submit" onClick={this.handleSubmitChange}>Submit</button>
-                            </div>
+                        <div className="form-group-row">
+                            <Modal.Footer>
+                                <div className="col-sm-3">
+                                    <button className="usersavebtn btn btn-primary" type="submit" onClick={this.handleSubmitChange}>Submit and Close</button>
+                                </div>
+                                <div className="col-sm-3">
+                                    <button className="btn btn-primary" onClick={this.handleClose}>Close</button>
+                                </div>
+                            </Modal.Footer>
+                        </div>
+                            
             </form>
         </div>
         )

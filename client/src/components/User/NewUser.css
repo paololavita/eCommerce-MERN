@@ -15,13 +15,16 @@ input, optgroup, select, textarea {
     font: inherit;
     color: inherit;
 }
-.usersavebtn {
-    width: 110px;
-    background-color: white;
-    color: black;
-    font-size: 15px;
-    font-weight: normal;
-    margin: 70px 0 0 238px;
+.navbar-nav {
+    float: left;
+    margin: 0;
+    background-color: black;
+}
+.btn-primary {
+    color: #fcf8e3;
+    background-color: black;
+    border-color: black;
+    margin: 5px 0px 0 5px;
 }
 .col-sm-10 {
     width: 81.333333%;
@@ -56,12 +59,12 @@ input, optgroup, select, textarea {
     width:60%;
 }
 .usersavebtn {
-    width: 110px;
+    width: 174px;
     background-color: white;
     color: black;
     font-size: 15px;
     font-weight: bold;
-    margin: 15px 0 0 452px;
+    margin: 9px 0 0 356px;
 }
 #email{
     margin: 0px 0px 0px 0px;
@@ -84,4 +87,10 @@ input, optgroup, select, textarea {
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5;
+    margin-top: 28rem;
 }

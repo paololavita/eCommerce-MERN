@@ -8,6 +8,19 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 100;
+    font-size: medium;
+    margin: 25px 0px 0px 160px;
+}
+input, optgroup, select, textarea {
+    margin: 20px 0px 0 52px;
+    font: inherit;
+    color: inherit;
+    width: 77%;
+}
 .production-menu{
     width:80%;
     height: 450px;
@@ -37,9 +50,13 @@ p{
 }
 
 #prod_name, #prod_desc{
-    width:60%;
+    width:77%;
 }
-#prod_qty, #prod_price{
-    width:30%;
+#prod_qty, #prod_price {
+    width: 77%;
+    margin-left: -566px;
+}
+.col-sm-3 {
+    width: 22.9%;
     text-align: right;
 }
