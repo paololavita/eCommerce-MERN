@@ -11,7 +11,10 @@ var cheerio = require("cheerio");
 
 var db = require("./models");
 
-var PORT = 4000;
+//var PORT = 4000;
+
+// Connect to Port on Heroku using env variable or local instance
+var PORT = process.env.PORT || 3000;
 
 // Initialize Express
 
