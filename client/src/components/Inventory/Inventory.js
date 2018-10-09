@@ -39,6 +39,9 @@ export default class Inventory extends Component {
             <nav className="navbar navbar-inverse">
             <div className="container-fluid">
             <div className="navbar-header">
+              <a className="navbar-brand" href="/">E Commerce</a>
+            </div>
+            {/* <div className="navbar-header">
             <li className="active">
               <a className="navbar-brand">
                 <Link
@@ -50,10 +53,19 @@ export default class Inventory extends Component {
                     E Commerce
                 </Link>
                 </a>
-            </li>
-            </div>
+            </li> */}
+            {/* </div> */}
             <ul className="nav navbar-nav">
-              <li className="active"><a href="site">Today's Deals</a></li>
+            <li className="active">
+              <Link
+                to="/Store"
+                className={
+                  window.location.pathname === "/Store" ? "nav-link active" : "nav-link"
+                }
+              >
+                Today's Deals
+              </Link>
+              </li>
               {/* <li className="nav-item dropdown">
               <a className="active dropdown-toggle" href="blank" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">User List</a>
               <div className="dropdown-menu" aria-labelledby="navbarDropdown">

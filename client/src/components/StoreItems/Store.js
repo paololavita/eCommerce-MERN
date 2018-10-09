@@ -1,10 +1,8 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import Main from '../../Main';
-import './Navbar.css';
+import './Store.css';
 import SimpleModal from '../SImpleModal/SimpleModal';
-// import Store from '../StoreItems/Store';
 
 
 const Navbar = () => (
@@ -15,16 +13,7 @@ const Navbar = () => (
               <a className="navbar-brand" href="/">E Commerce</a>
             </div>
             <ul className="nav navbar-nav">
-              <li className="active">
-              <Link
-                to="/Store"
-                className={
-                  window.location.pathname === "/Store" ? "nav-link active" : "nav-link"
-                }
-              >
-                Today's Deals
-              </Link>
-              </li>
+              <li className="active"><a href="site">Today's Deals</a></li>
               
               <li className="nav-item active">
                   <SimpleModal/>
@@ -52,9 +41,7 @@ const Navbar = () => (
             </ul>
           </div>
         </nav>
-        <div>
-              <Main />
-        </div>
+
   </div>
   );
   

@@ -34,23 +34,11 @@ input, optgroup, select, textarea {
     width:50%;
     padding-left:20%;
 }
-.productionbtn{
-    width:100px;
-    background-color: purple;
-    color:white;
-}
 #label{
     background-color:blue;
     color:white;
     margin-bottom:0;
     margin-top:10px;
-}
-#prod_name, #prod_desc{
-    width:77%;
-}
-#prod_qty, #prod_price {
-    width: 77%;
-    margin-left: -566px;
 }
 .col-sm-3 {
     width: 22.9%;
@@ -58,18 +46,45 @@ input, optgroup, select, textarea {
 }
 .usersavebtn {
     width: 174px;
-    background-color: #337ab7;
-    color: white;
+    background-color: black;
+    color: grey;
     font-size: 15px;
-    font-weight: bold;
-    margin: 5px 0 0 356px;
+    font-weight: normal;
 }
 .btn-primary {
-    color: white;
-    background-color: #337ab7;
-    border-color: #337ab7;
-    margin: 5px 0px 0 5px;
+    color: grey;
+    background-color: black;
+    border-color: black;
+    margin: 0px 0px 0px 145px;
 }
+.close1 {
+    margin: 0 0 0 200px;
+}
+.btn-default {
+    color: #fff;
+    background-color: black;
+    border-color: black;
+}
+.btn-default.focus, .btn-default:focus {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+.btn-primary:hover {
+    color: grey;
+    background-color: black;
+    border-color: black;
+}    
 .form-control {
     margin-bottom: 15px;
     display: block;

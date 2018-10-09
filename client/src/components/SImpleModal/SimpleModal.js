@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import './SimpleModal.css';
+import '../SImpleModal/SimpleModal';
 import Newuser from '../User/NewUser';
 
 class SimpleModal extends React.Component {
@@ -27,8 +27,8 @@ class SimpleModal extends React.Component {
     return (
       <div>
           <ul className="nav navbar-nav">
-              <li className="active">
-              <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
+              <li className="nav-item active">
+              <Button className="nav-link" onClick={this.handleShow}>
                 Sign Up
               </Button>
               </li>

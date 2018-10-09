@@ -20,11 +20,17 @@ input, optgroup, select, textarea {
     margin: 0;
     background-color: black;
 }
+
 .btn-primary {
     color: #fcf8e3;
     background-color: black;
     border-color: black;
-    margin: 5px 0px 0 5px;
+    margin: 0px 0px 0px 145px;
+}
+.btn-primary:hover {
+    color: grey;
+    background-color: black;
+    border-color: black;
 }
 .col-sm-10 {
     width: 81.333333%;
@@ -63,7 +69,7 @@ input, optgroup, select, textarea {
     background-color: white;
     color: black;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
     margin: 9px 0 0 356px;
 }
 #email{

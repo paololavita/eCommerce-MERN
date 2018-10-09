@@ -110,9 +110,9 @@ export default class NewUser extends Component{
                         <div className="form-group-row">
                             <Modal.Footer>
                                 <div className="col-sm-3">
-                                    <button className="usersavebtn btn btn-primary" type="submit" onClick={this.handleSubmitChange}>Submit and Close</button>
+                                    <button className="btn btn-primary" type="submit" onClick={this.handleSubmitChange}>Submit and Close</button>
                                 </div>
-                                <div className="col-sm-3">
+                                <div className="col-sm-3 close1">
                                     <button className="btn btn-primary" onClick={this.handleClose}>Close</button>
                                 </div>
                             </Modal.Footer>

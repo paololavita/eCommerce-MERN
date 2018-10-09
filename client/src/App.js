@@ -6,8 +6,8 @@ import Navbar from './components/Navbar/Navbar';
 import NewUser from './components/User/NewUser';
 import Production from './components/Production/Production';
 import Inventory from './components/Inventory/Inventory';
+import Store from './components/StoreItems/Store';
 
-// import SimpleModal from './components/SImpleModal/SimpleModal';
 
 
 
@@ -20,6 +20,7 @@ const App = () => (
       <Route exact path="/" component={Navbar} />
       {/* <Route exact path="/newuser" component={SimpleModal} /> */}
       <Route exact path="/newuser" component={NewUser} />
+      <Route exact path="/store" component={Store} />
       <Route exact path="/production" component={Production} />
       <Route exact path="/inventory" component={Inventory} />
     </div>

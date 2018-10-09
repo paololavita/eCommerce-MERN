@@ -55,7 +55,10 @@ export default class Production extends Component{
             <div className="App">
             <nav className="navbar navbar-inverse">
             <div className="container-fluid">
-                <div className="navbar-header">
+            <div className="navbar-header">
+              <a className="navbar-brand" href="/">E Commerce</a>
+            </div>
+                {/* <div className="navbar-header">
                 <li className="active">
                 <a className="navbar-brand">
                     <Link
@@ -68,10 +71,19 @@ export default class Production extends Component{
                     </Link>
                     </a>
                 </li>
-                </div>
+                </div> */}
                 <ul className="nav navbar-nav">
-                <li className="active"><a href="site">Today's Deals</a></li>
                 <li className="active">
+              <Link
+                to="/Store"
+                className={
+                  window.location.pathname === "/Store" ? "nav-link active" : "nav-link"
+                }
+              >
+                Today's Deals
+              </Link>
+              </li>
+              <li className="active">
                     <Link
                     to="/Inventory"
                     className={
@@ -187,7 +199,7 @@ export default class Production extends Component{
                             </div>
                         </div>
                     <div>
-                         <button className="productionbtn" onClick={this.handleFormSubmit}>Save</button>                        
+                         <button className="usersavebtn btn btn-primary" id="#save" onClick={this.handleFormSubmit}>Save</button>                        
                     </div> 
                 </div>
             </div>

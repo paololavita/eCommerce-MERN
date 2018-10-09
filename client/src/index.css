@@ -3,3 +3,44 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+.usersavebtn {
+  width: 174px;
+  background-color: #337ab7;
+  color: white;
+  font-size: 15px;
+  font-weight: normal;
+}
+.btn-primary {
+  color: grey;
+  background-color: black;
+  border-color: black;
+  margin: 0px 0px 0px 145px;
+}
+.close1 {
+  margin: 0px 0px 0px 200px;
+}
+.btn-default {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+.btn-default.focus, .btn-default:focus {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-default:active, .open>.dropdown-toggle.btn-default {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}
+.btn-default:hover {
+  color: white;
+  background-color: black;
+  border-color: black;
+}    
