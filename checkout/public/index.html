@@ -1,0 +1,65 @@
+<html>
+
+<head>
+    <title>Stripe Checkout Integration</title>
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+</head>
+
+<body>
+    <h2>Stripe Checkout Example</h2>
+
+    <div id="shop">
+        <button id="buttonCheckout">Checkout</button>
+    </div>
+</body>
+
+<!-- Configuring checkout library -->
+<script>
+
+    var checkoutHandler = StripeCheckout.configure({
+        key: "pk_test_lzwj9TyDfLE5dDpskC38mhWx",
+        locale: "auto"
+    });
+
+    // attach event listener to the button to handle click events. Use checkout's "open" method to display the payment form
+    var button = document.getElementById("buttonCheckout");
+    button.addEventListener("click", function (ev) {
+        checkoutHandler.open({
+            name: "MOPL Store",
+            description: "PURCHASE",
+            token: handleToken
+        });
+    });
+
+    // "token" property is the callback that checkout triggers when the user completes their purchase. The callback creates a JSON payload with the token and use "fetch" to send it to the application server
+    function handleToken(token) {
+        fetch("/charge", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(token)
+        })
+            .then(output => {
+                if (output.status === "succeeded")
+                    document.getElementById("shop").innerHTML = "<p>Purchase complete!</p>";
+            })
+    };
+
+    fetch("/charge", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(token)
+    })
+        .then(response => {
+            if (!response.ok)
+                throw response;
+            return response.json();
+        })
+        .then(output => {
+            console.log("Purchase succeeded:", output);
+        })
+        .catch(err => {
+            console.log("Purchase failed:", err);
+        });
+</script>
+
+</html>
