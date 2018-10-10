@@ -14,13 +14,15 @@
     "body-parser": "^1.18.3",
     "cheerio": "^1.0.0-rc.2",
     "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
     "express": "^4.16.3",
     "mongoose": "^5.2.15",
     "morgan": "^1.9.1",
     "path": "^0.12.7",
     "react": "^16.5.2",
     "react-bootstrap": "^0.32.4",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "stripe": "^6.12.1"
   },
   "devDependencies": {},
   "description": "inventory management system"
