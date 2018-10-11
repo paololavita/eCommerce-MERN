@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Main from '../../Main';
 import './Navbar.css';
 import SimpleModal from '../SImpleModal/SimpleModal';
+import SimpleModal2 from '../SImpleModal/SimpleModal2';
 // import Store from '../StoreItems/Store';
 
 
@@ -26,9 +27,6 @@ const Navbar = () => (
               </Link>
               </li>
               
-              <li className="nav-item active">
-                  <SimpleModal/>
-              </li>
               <li className="active">
               <Link
                 to="/Inventory"
@@ -39,7 +37,7 @@ const Navbar = () => (
                 Inventory
               </Link>
             </li>
-      <li className="active">
+            <li className="active">
               <Link
                 to="/production"
                 className={
@@ -49,6 +47,12 @@ const Navbar = () => (
                 Product List
               </Link>
             </li>
+              <li className="nav-item active">
+                  <SimpleModal/>
+              </li>
+              <li className="nav-item active">
+                  <SimpleModal2/>
+              </li>
             </ul>
           </div>
         </nav>

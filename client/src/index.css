@@ -3,44 +3,36 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
-.usersavebtn {
-  width: 174px;
-  background-color: #337ab7;
-  color: white;
-  font-size: 15px;
-  font-weight: normal;
+.form-control2 {
+  margin: 19px auto;
+  display: block;
+  width: 70%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+  -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
 }
 .btn-primary {
+  color: #fff;
+  background-color: #333;
+  border-color: #333;
+  margin: 10px 0px 0px 50px;
+}
+.btn-primary:hover {
   color: grey;
   background-color: black;
   border-color: black;
-  margin: 0px 0px 0px 145px;
+  margin: 10px 0 0 50px;
 }
-.close1 {
-  margin: 0px 0px 0px 200px;
-}
-.btn-default {
-  color: #fff;
-  background-color: black;
-  border-color: black;
-}
-.btn-default.focus, .btn-default:focus {
-  color: white;
-  background-color: black;
-  border-color: black;
-}
-.btn-default:active, .open>.dropdown-toggle.btn-default {
-  color: white;
-  background-color: black;
-  border-color: black;
-}
-.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
-  color: white;
-  background-color: black;
-  border-color: black;
-}
-.btn-default:hover {
-  color: white;
-  background-color: black;
-  border-color: black;
-}    

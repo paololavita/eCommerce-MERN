@@ -32,10 +32,6 @@ font-size: 1.3em;
 .App-intro {
 font-size: large;
 }
-.btn-default {
-    color: white;
-    background-color: black;
-}
 @keyframes App-logo-spin {
 from { transform: rotate(0deg); }
 to { transform: rotate(360deg); }
@@ -43,7 +39,7 @@ to { transform: rotate(360deg); }
 .form-control2 {
     margin: 19px auto;
     display: block;
-    width: 100%;
+    width: 70%;
     height: 34px;
     padding: 6px 12px;
     font-size: 14px;
@@ -67,13 +63,16 @@ to { transform: rotate(360deg); }
     background-color: black;
 }
 .btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    margin-right: 0px;
+}
+.btn-primary:hover {
     color: grey;
     background-color: black;
     border-color: black;
-    margin: 0px 0px 0px 145px;
-}
-.close1 {
-    margin: 0px 0px 0px 200px;
+    margin-right: 0px;
 }
 button {
     margin: 8px;

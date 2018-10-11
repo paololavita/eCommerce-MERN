@@ -13,7 +13,7 @@ const Navbar = () => (
               <a className="navbar-brand" href="/">E Commerce</a>
             </div>
             <ul className="nav navbar-nav">
-              <li className="active"><a href="site">Today's Deals</a></li>
+              <li className="active"><a href="store">Today's Deals</a></li>
               
               <li className="nav-item active">
                   <SimpleModal/>

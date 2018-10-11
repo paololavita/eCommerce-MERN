@@ -25,11 +25,6 @@ h3 {
 .img-rounded {
     border-radius: 20px;
 }
-button {
-    margin: 6px;
-    font: inherit;
-    color: inherit;
-}
 
 .text {
     color: antiquewhite;
@@ -52,12 +47,6 @@ button {
 }
 .btn .caret {
     margin-left: 6px;
-}
-.btn-primary {
-    color: #fff;
-    background-color: #333;
-    border-color: #333;
-    margin: 0px;
 }
 
 .image {

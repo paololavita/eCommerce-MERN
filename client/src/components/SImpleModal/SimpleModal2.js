@@ -1,11 +1,11 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
-import '../SImpleModal/SimpleModal';
+import '../SImpleModal/SimpleModal2';
 import './SimpleModal.css'
-import Register from '../../components/Register';
-// import Login from '../../components/Login'
+// import Register from '../../components/Register';
+import Login from '../../components/Login'
 
-class SimpleModal extends React.Component {
+class SimpleModal2 extends React.Component {
   constructor(props, context) {
     super(props, context);
 
@@ -31,7 +31,7 @@ class SimpleModal extends React.Component {
           <ul className="nav navbar-nav">
               <li className="nav-item active">
               <Button bsStyle="link" onClick={this.handleShow}>
-                Sign In
+                Log In
               </Button>
               </li>
               {/* <li className="active">
@@ -49,7 +49,7 @@ class SimpleModal extends React.Component {
           <Modal.Body>
             <h4>Enter your User Name and Password Here</h4>
             <div>
-              <Register/>
+              <Login/>
             </div>
           </Modal.Body>
         </Modal>
@@ -59,4 +59,4 @@ class SimpleModal extends React.Component {
 }
 
 // render(<SimpleModal />);
-export default SimpleModal;
+export default SimpleModal2;
