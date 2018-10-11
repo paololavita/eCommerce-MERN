@@ -8,6 +8,19 @@ p{
     font-weight: bold;
     font-size: 20px;
 }
+label {
+    display: inline-block;
+    max-width: 100%;
+    font-weight: 100;
+    font-size: medium;
+    margin: 25px 0px 0px 0px;
+}
+input, optgroup, select, textarea {
+    margin: 20px 0px 0 52px;
+    font: inherit;
+    color: inherit;
+    width: 77%;
+}
 .production-menu{
     width:80%;
     height: 450px;
@@ -21,25 +34,37 @@ p{
     width:50%;
     padding-left:20%;
 }
-
-.productionbtn{
-    width:100px;
-    background-color: purple;
-    color:white;
+.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+    margin: 55px;
 }
-
+.btn-primary:hover {
+    color: grey;
+    background-color: black;
+    border-color: black;
+    margin: 55px;
+}
 #label{
     background-color:blue;
     color:white;
     margin-bottom:0;
     margin-top:10px;
-
 }
-
-#prod_name, #prod_desc{
-    width:60%;
+#prod_qty {
+    width: 77%;
+    margin-left: 133px;
 }
-#prod_qty, #prod_price{
-    width:30%;
+#prod_price {
+    width: 77%;
+    margin-left: 61px;
+    margin-bottom: 55px;
+}
+.col-sm-3 {
+    width: 22.9%;
     text-align: right;
+}
+#save {
+    margin: 50px 0px 0px 55px;
 }

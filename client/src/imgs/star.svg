@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="star.svg">
+  <defs
+     id="defs4">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter4324"
+       x="-0.081477365"
+       width="1.1629547"
+       y="-0.062596868"
+       height="1.1251937">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="9.7955685"
+         id="feGaussianBlur4326" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="499.52976"
+     inkscape:cy="399.72727"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1249"
+     inkscape:window-height="782"
+     inkscape:window-x="31"
+     inkscape:window-y="18"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="star"
+       style="fill:#ff0002;fill-opacity:1;stroke:#000000;stroke-width:7.40749979;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4154"
+       sodipodi:sides="13"
+       sodipodi:cx="381.83762"
+       sodipodi:cy="502.83923"
+       sodipodi:r1="301.7886"
+       sodipodi:r2="204.10426"
+       sodipodi:arg1="0.99194503"
+       sodipodi:arg2="1.233606"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="M 546.93491,755.46394 449.36285,695.44996 410.62346,803.25185 352.11757,704.7681 267.71751,782.21884 261.6808,667.82678 150.9551,697.18333 198.7705,593.08879 87.0851,567.62593 177.79868,497.67572 90.739345,423.22668 203.56972,403.44554 161.0807,297.06571 l 109.09908,34.91956 11.81502,-113.9403 80.37451,81.62061 63.41237,-95.39842 33.23711,109.62336 100.48273,-55.0019 -21.51452,112.51272 114.53369,-2.00511 -71.33743,89.62677 102.34637,51.45101 -104.81779,46.20841 66.71273,93.12035 -114.28566,-7.79574 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:155.91059875px;line-height:110.00000238%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.47517732;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter4324);"
+       x="376.09531"
+       y="366.36545"
+       id="text4136"
+       sodipodi:linespacing="110%"><tspan
+         sodipodi:role="line"
+         id="tspan4138"
+         x="376.09531"
+         y="366.36545"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.47517732;"
+         transform="matrix(3.5979961,0,0,3.5979961,-433.09759,-696.1836)">Up To</tspan><tspan
+         sodipodi:role="line"
+         x="376.09531"
+         y="515.01947"
+         id="tspan4140"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:146.81417847px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.47517732;">40<tspan
+   style="font-size:64.99999762%;line-height:110.00000238%;baseline-shift:super;fill:#000000;fill-opacity:0.47517732;"
+   id="tspan4152">%</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="376.09531"
+         y="676.51508"
+         id="tspan4144"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:146.81417847px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:0.47517732;"
+         transform="matrix(3.5979961,0,0,3.5979961,-433.09759,-696.1836)">OFF!</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     sodipodi:insensitive="true">
+    <text
+       sodipodi:linespacing="110%"
+       id="text4252"
+       y="362.24359"
+       x="390.23743"
+       style="font-style:normal;font-weight:normal;font-size:155.91059875px;line-height:110.00000238%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f8f4ba;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         transform="matrix(3.5979961,0,0,3.5979961,-433.09759,-696.1836)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:90px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f8f4ba;fill-opacity:1"
+         y="362.24359"
+         x="390.23743"
+         id="tspan4254"
+         sodipodi:role="line">Up To</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:146.81417847px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f8f4ba;fill-opacity:1"
+         id="tspan4256"
+         y="510.89764"
+         x="390.23743"
+         sodipodi:role="line">40<tspan
+   id="tspan4258"
+   style="font-size:64.99999762%;line-height:110.00000238%;baseline-shift:super;fill:#f8f4ba;fill-opacity:1">%</tspan></tspan><tspan
+         transform="matrix(3.5979961,0,0,3.5979961,-433.09759,-696.1836)"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:146.81417847px;line-height:110.00000238%;font-family:Roboto;-inkscape-font-specification:'Roboto, Bold';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#f8f4ba;fill-opacity:1"
+         id="tspan4260"
+         y="672.39325"
+         x="390.23743"
+         sodipodi:role="line">OFF!</tspan></text>
+  </g>
+</svg>

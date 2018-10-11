@@ -1,7 +1,9 @@
 import React from 'react';
 import { Button, Modal } from 'react-bootstrap';
-// import './SimpleModal.css';
-import Newuser from '../User/NewUser';
+import '../SImpleModal/SimpleModal';
+import './SimpleModal.css'
+import Register from '../../components/Register';
+// import Login from '../../components/Login'
 
 class SimpleModal extends React.Component {
   constructor(props, context) {
@@ -27,26 +29,29 @@ class SimpleModal extends React.Component {
     return (
       <div>
           <ul className="nav navbar-nav">
-              <li className="active">
-              <Button bsStyle="primary" bsSize="large" onClick={this.handleShow}>
-                Sign Up
+              <li className="nav-item active">
+              <Button bsStyle="link" onClick={this.handleShow}>
+                Sign In
               </Button>
               </li>
+              {/* <li className="active">
+              <Link
+                className="active" onClick={this.handleShow}>
+                Sign In
+              </Link>
+            </li> */}
           </ul>
 
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title>Sign Up</Modal.Title>
+            <Modal.Title>Sign In</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             <h4>Enter your User Name and Password Here</h4>
             <div>
-              <Newuser/>
+              <Register/>
             </div>
           </Modal.Body>
-          <Modal.Footer>
-            <Button onClick={this.handleClose}>Close</Button>
-          </Modal.Footer>
         </Modal>
       </div>
     );

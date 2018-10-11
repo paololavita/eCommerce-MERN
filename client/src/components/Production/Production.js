@@ -56,130 +56,153 @@ export default class Production extends Component{
             <nav className="navbar navbar-inverse">
             <div className="container-fluid">
             <div className="navbar-header">
-            <li className="active">
-              <a className="navbar-brand">
-                <Link
-                to="/"
-                className={
-                    window.location.pathname === "/" ? "nav-link active" : "nav-link"
-                }
-                >
-                    E Commerce
-                </Link>
-                </a>
-            </li>
+              <a className="navbar-brand" href="/">E Commerce</a>
             </div>
-            <ul className="nav navbar-nav">
-              <li className="active"><a href="site">Today's Deals</a></li>
-              <li className="active">
-                <Link
-                to="/Inventory"
-                className={
-                    window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
+                {/* <div className="navbar-header">
+                <li className="active">
+                <a className="navbar-brand">
+                    <Link
+                    to="/"
+                    className={
+                        window.location.pathname === "/" ? "nav-link active" : "nav-link"
                     }
                     >
-                    Inventory
+                        E Commerce
+                    </Link>
+                    </a>
+                </li>
+                </div> */}
+                <ul className="nav navbar-nav">
+                <li className="active">
+              <Link
+                to="/Store"
+                className={
+                  window.location.pathname === "/Store" ? "nav-link active" : "nav-link"
+                }
+              >
+                Today's Deals
+              </Link>
+              </li>
+              <li className="active">
+                    <Link
+                    to="/Inventory"
+                    className={
+                        window.location.pathname === "/Inventory" ? "nav-link active" : "nav-link"
+                        }
+                        >
+                        Inventory
+                    </Link>
+                    </li>
+                    <li className="active">
+                    <Link
+                    to="/production"
+                    className={
+                    window.location.pathname === "/production" ? "nav-link active" : "nav-link"
+                    }
+                    >
+                    Product List
                 </Link>
                 </li>
-                <li className="active">
-                <Link
-                to="/production"
-                className={
-                  window.location.pathname === "/production" ? "nav-link active" : "nav-link"
-                }
-                >
-                Product List
-              </Link>
-            </li>
-            </ul>
-          </div>
+                </ul>
+            </div>
         </nav>
          <div className="container">
             <div className="jumbotron">
                 <h2>Product Information</h2>
             </div>
-            </div>
-            <div className="form-group-row">
-                        <label for="colFormLabelSm" className="col-sm-2 col-form-label">Product Date</label><br/>
-                        <div className="col-sm-10">
-                        <input
-                            type="text"
-                            className="form-control3 form-control-sm"
-                            placeholder="Prod_date"
-                            name="prod_date"
-                            value={this.state.prod_date}
-                            onChange={this.handleInputChange}
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <label for="colFormLabelSm" className="col-form-label">Product Date</label><br/>
+                        </div>
+                        <div className="col-sm-9">
+                            <input
+                                type="text"
+                                className="form-control3 form-control-sm"
+                                placeholder="Prod_date"
+                                name="prod_date"
+                                value={this.state.prod_date}
+                                onChange={this.handleInputChange}
+                                />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <label for="colFormLabelSm" className="col-form-label">Product Id</label><br/>
+                        </div>
+                        <div className="col-sm-9">
+                            <input
+                                type="text"
+                                id="prod_id"
+                                placeholder="Prod Id"
+                                name="prod_id"
+                                value={this.state.prod_id}
+                                onChange={this.handleInputChange}
                             />
                         </div>
                     </div>
-                    <br></br>
-                    <div>
-                        <label id="label">Product Id</label><br/>
-                        <input
-                            type="text"
-                            id="prod_id"
-                            placeholder="Prod Id"
-                            name="prod_id"
-                            value={this.state.prod_id}
-                            onChange={this.handleInputChange}
-                        />
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <label for="colFormLabelSm" className="col-form-label">Product Name</label><br/>
+                        </div>
+                        <div className="col-sm-9">
+                            <input
+                                type="text"
+                                id="prod_name"
+                                placeholder="Prod Name"
+                                name="prod_name"
+                                value={this.state.prod_name}
+                                onChange={this.handleInputChange}
+                            />
+                        </div>
                     </div>
-                    <br></br>
-                    <div>
-                        <label id="label">Product Name</label><br/>
-                        <input
-                            type="text"
-                            id="prod_name"
-                            placeholder="Prod Name"
-                            name="prod_name"
-                            value={this.state.prod_name}
-                            onChange={this.handleInputChange}
-                        />
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <label for="colFormLabelSm" className="col-form-label">Product Desc</label><br/>
+                        </div>
+                        <div className="col-sm-9">
+                            <input
+                                type="text"
+                                id="prod_desc"
+                                placeholder="Product Desc"
+                                name="prod_desc"
+                                value={this.state.prod_desc}
+                                onChange={this.handleInputChange}
+                            />
+                        </div>
                     </div>
-                    <br></br>
+                    <div className="row">
+                        <div className="col-sm-3">
+                            <label for="colFormLabelSm" className="col-form-label">Product Qty</label><br/>
+                        </div>
+                        <div className="col-sm-3">
+                            <input
+                                type="text"
+                                id="prod_qty"
+                                placeholder="Product Qty"
+                                name="prod_qty"
+                                value={this.state.prod_qty}
+                                onChange={this.handleInputChange}
+                            />
+                        </div>
+                            <div className="col-sm-3">
+                                <label for="colFormLabelSm" className="col-form-label">Product Price</label><br/>
+                            </div>
+                            <div className="col-sm-3">
+                                <input
+                                    type="text"
+                                    id="prod_price"
+                                    placeholder="Product Price"
+                                    name="prod_price"
+                                    value={this.state.prod_price}
+                                    onChange={this.handleInputChange}
+                                />
+                            </div>
+                        </div>
                     <div>
-                        <label id="label">Product Desc</label><br/>
-                        <input
-                            type="text"
-                            id="prod_desc"
-                            placeholder="Product Desc"
-                            name="prod_desc"
-                            value={this.state.prod_desc}
-                            onChange={this.handleInputChange}
-                        />
-                    </div>
-                    <br></br>
-                    <div>
-                        <label id="label">Product Qty</label><br/>
-                        <input
-                            type="text"
-                            id="prod_qty"
-                            placeholder="Product Qty"
-                            name="prod_qty"
-                            value={this.state.prod_qty}
-                            onChange={this.handleInputChange}
-                        />
-                    </div>
-                    <br></br>
-                    <div>
-                        <label id="label">Product Price</label><br/>
-                        <input
-                            type="text"
-                            id="prod_price"
-                            placeholder="Product Price"
-                            name="prod_price"
-                            value={this.state.prod_price}
-                            onChange={this.handleInputChange}
-                        />
-                    </div>
-                    <br></br>
-                        
-                    <div>
-                         <button className="productionbtn" onClick={this.handleFormSubmit}>Save</button>                        
+                         <button className="usersavebtn btn btn-primary" id="#save" onClick={this.handleFormSubmit}>Save</button>                        
                     </div> 
-                    <br></br>
-                    <br></br>
                 </div>
+            </div>
             
         
         )

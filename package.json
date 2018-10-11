@@ -1,10 +1,10 @@
 {
   "name": "inventory",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": ["server.js","index"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": ["node server.js","npm start"]
   },
   "keywords": [],
   "author": "islam",
@@ -25,5 +25,13 @@
     "stripe": "^6.12.1"
   },
   "devDependencies": {},
-  "description": "inventory management system"
+  "description": "inventory management system",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paololavita/eCommerce-MERN.git"
+  },
+  "bugs": {
+    "url": "https://github.com/paololavita/eCommerce-MERN/issues"
+  },
+  "homepage": "https://github.com/paololavita/eCommerce-MERN#readme"
 }
